@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>숫자를 맞춰라!</h1>
+    <h1>숫자를 맞춰라!🤔</h1>
     <h2>아래의 빈칸에 0~99까지의 숫자를 입력해주세요!</h2>
     <form id="number-form">
-      <input placeholder="숫자를 입력해주세요" id="number-input" autofocus />
+      <input
+        placeholder="숫자를 입력해주세요"
+        id="number-input"
+        autofocus
+        type="number"
+        min="0"
+        max="99"
+      />
     </form>
+    <ul id="show-num"></ul>
     <script src="index.js"></script>
   </body>
 </html>

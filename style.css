@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 1.1em;
+  text-align: center;
+  width: 180px;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+}
+
+li {
+  padding: 13px;
+  margin: 5px;
+  font-size: 1.1em;
+  background-color: #65a8c2;
+  color: rgb(232, 240, 235);
+  border-radius: 10px;
+}
